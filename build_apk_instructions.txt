@@ -1,0 +1,13 @@
+Как собрать AI Free APK:
+
+1. Установи Flutter и Android Studio.
+2. Открой папку ai_free_android в Android Studio.
+3. В терминале проекта выполни:
+   flutter pub get
+   flutter build apk --release
+
+APK будет тут:
+build/app/outputs/flutter-apk/app-release.apk
+
+Если хочешь быстро проверить на телефоне:
+flutter run
